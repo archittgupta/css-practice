@@ -21,6 +21,8 @@ body{
     place-items: center; 
     margin-top: 30%;
     border-radius: 9px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    
     
     
     
@@ -37,7 +39,14 @@ h1{
     width: 200px;
     height: 25px;
     border-radius: 5px;
-    
+    padding: 12px 9px;
+    border: 2px solid black; /* Blue border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     
 }
 .password {
@@ -45,17 +54,49 @@ h1{
     width: 200px;
     height: 25px;
     border-radius: 5px;
+    padding: 12px 9px;
+    border: 2px solid black; /* Blue border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button {
     background-color: rgb(20, 162, 115);
     height: 30px;
-    width: 100px;
-    font-weight: 500;
+    width: 130px;
+    font-weight: 600;
+    font-size: 17px;
     color: white;
     border-radius: 9px;
     border: none;
+    
 }
 .Signup{
     color:  rgb(20, 162, 115);
+    
+}
+.member{
+    display: grid;
+    place-items: center; }
+.f{
+    font-size: 10px;
+    margin-top: 4px;
+    color: rgb(20, 162, 115);
+}
+input:focus {
+    border-color: #2980b9; /* Darker blue when focused */
+    box-shadow: 0 0 10px rgb(20, 162, 115);
+}
+
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+input:hover {
+    border-color: rgb(20, 162, 115);
 }
