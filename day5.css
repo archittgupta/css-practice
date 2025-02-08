@@ -5,3 +5,18 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    animation: animate;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%,#f66e48 50%,#de005e 75%,#5335cf 100%);
+
+
+}
