@@ -8,8 +8,6 @@
 }
 body{
     background-color: aquamarine;
-    display: flex;
-    justify-content: center;
     
 
 }
@@ -19,7 +17,7 @@ body{
     width: 250px;
     display: grid;
     place-items: center; 
-    margin-top: 30%;
+    
     border-radius: 9px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     
@@ -105,5 +103,6 @@ input:hover {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
