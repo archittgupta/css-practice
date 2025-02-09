@@ -5,16 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 6</title>
     <link rel="stylesheet" href="day6.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
 </head>
 <body>
-    <div class="nav">
-      
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Code</a>
-            <a href="#">Help</a>
-            <a href="#">About</a>
-        
+
+    <div class="container">
+        <input type="radio" name="slider" id="home" checked>
+        <input type="radio" name="slider" id="blog">
+        <input type="radio" name="slider" id="code">
+        <input type="radio" name="slider" id="help">
+        <input type="radio" name="slider" id="about">
+      <nav>
+        <div class="slider"></div>
+           <label for="home" class="home">
+            <i class='bx bxs-home'></i>Home
+
+           </label>
+           <label for="blog" class="blog">
+            <i class='bx bxs-pen'></i>Blog
+
+           </label>
+           <label for="code" class="code">
+            <i class='bx bx-code'></i>Code
+
+           </label>
+           <label for="help" class="help">
+            <i class='bx bxs-help-circle'></i>Help
+
+           </label>
+           <label for="about" class="about">
+            <i class='bx bxs-info-circle'></i>About
+
+           </label>
+
+        </nav>
     </div>
 </body>
 </html>
