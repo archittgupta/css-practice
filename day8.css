@@ -22,7 +22,8 @@ a{
     margin-right:50px;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    height: 100%;
+    width: 100%;
     transition: all 0.3s ease;
 
    
